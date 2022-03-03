@@ -38,7 +38,7 @@ namespace SchoolRegister
         {
             if (!Regex.IsMatch(tbname.Text, @"^\p{Lu}\p{Ll}{1,12}$") ||
                 !Regex.IsMatch(tbsurname.Text, @"^\p{Lu}\p{Ll}{1,12}$") ||
-                !Regex.IsMatch(tbfaculty.Text, @"^\p{Lu}\p{Ll}{1,12}$") ||
+                !Regex.IsMatch(tbfaculty.Text, @"[a-zA-Z]+")||
                 !Regex.IsMatch(tbnr.Text, @"^[0-9]{4,10}$"))
             {
                 MessageBox.Show("Incorrect data!");

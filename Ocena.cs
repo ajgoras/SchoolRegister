@@ -10,8 +10,8 @@ namespace SchoolRegister
     {
         string grade=null;
         string subject = null;
-        public string Ocenaa { get { return grade; } set { grade = value; } }
-        public string Przedmiot { get { return subject; } set { subject = value; } }
+        public string Grade { get { return grade; } set { grade = value; } }
+        public string Subject { get { return subject; } set { subject = value; } }
 
         public Ocena() { }
 

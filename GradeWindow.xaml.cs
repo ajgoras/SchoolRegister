@@ -12,8 +12,8 @@ namespace SchoolRegister
 
             if (ocena!=null)
             {
-                tbgrade.Text = ocena.Ocenaa;
-                tbsubject.Text = ocena.Przedmiot;
+                tbgrade.Text = ocena.Grade;
+                tbsubject.Text = ocena.Subject;
             }
             this.ocena = ocena ?? new Ocena();
         }
@@ -26,8 +26,8 @@ namespace SchoolRegister
                 MessageBox.Show("Incorrect data!");
                 return;
             }
-            ocena.Przedmiot = tbsubject.Text;
-            ocena.Ocenaa = tbgrade.Text;
+            ocena.Subject = tbsubject.Text;
+            ocena.Grade = tbgrade.Text;
             this.DialogResult = true;
         }
     }

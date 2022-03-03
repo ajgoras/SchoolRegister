@@ -11,11 +11,11 @@
         <TextBox x:Name="tbsurname" HorizontalAlignment="Left" Margin="208,73,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="27"/>
         <TextBox x:Name="tbnr" HorizontalAlignment="Left" Margin="208,115,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="27"/>
         <TextBox x:Name="tbfaculty" HorizontalAlignment="Left" Margin="208,157,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="27"/>
-        <Label Content="Imie" HorizontalAlignment="Left" Margin="35,31,0,0" VerticalAlignment="Top"/>
-        <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="35,69,0,0" VerticalAlignment="Top"/>
-        <Label Content="NrIndeksu" HorizontalAlignment="Left" Margin="35,111,0,0" VerticalAlignment="Top"/>
-        <Label Content="Wydzial" HorizontalAlignment="Left" Margin="35,156,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="ButtonConfirm" Content="Zapisz" HorizontalAlignment="Left" Margin="297,198,0,0" VerticalAlignment="Top" Height="27" Width="73" Click="ButtonConfirm_Click"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="35,31,0,0" VerticalAlignment="Top"/>
+        <Label Content="Surname" HorizontalAlignment="Left" Margin="35,69,0,0" VerticalAlignment="Top"/>
+        <Label Content="Index number" HorizontalAlignment="Left" Margin="35,111,0,0" VerticalAlignment="Top"/>
+        <Label Content="Faculty" HorizontalAlignment="Left" Margin="35,156,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ButtonConfirm" Content="Save" HorizontalAlignment="Left" Margin="297,198,0,0" VerticalAlignment="Top" Height="27" Width="73" Click="ButtonConfirm_Click"/>
 
     </Grid>
 </Window>

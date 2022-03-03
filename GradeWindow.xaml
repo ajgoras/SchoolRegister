@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="GradeWindow" Height="251" Width="465">
     <Grid>
-        <Label Content="Przedmiot" HorizontalAlignment="Left" Margin="68,65,0,0" VerticalAlignment="Top" Width="80"/>
-        <Label Content="Ocena" HorizontalAlignment="Left" Margin="68,0,0,0" VerticalAlignment="Center" Width="80"/>
+        <Label Content="Subject" HorizontalAlignment="Left" Margin="68,65,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label Content="Grade" HorizontalAlignment="Left" Margin="68,0,0,0" VerticalAlignment="Center" Width="80"/>
         <TextBox x:Name="tbsubject" HorizontalAlignment="Left" Margin="284,67,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Height="22"/>
         <TextBox x:Name="tbgrade" HorizontalAlignment="Left" Margin="284,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="142" Height="22"/>
-        <Button x:Name="ButtonAdd" Content="Dodaj" HorizontalAlignment="Left" Margin="327,169,0,0" VerticalAlignment="Top" Height="28" Width="99" Click="ButtonAdd_Click"/>
+        <Button x:Name="ButtonAdd" Content="Add" HorizontalAlignment="Left" Margin="327,169,0,0" VerticalAlignment="Top" Height="28" Width="99" Click="ButtonAdd_Click"/>
 
     </Grid>
 </Window>

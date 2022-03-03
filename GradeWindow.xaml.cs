@@ -32,7 +32,7 @@ namespace SchoolRegister
 
         private void ButtonAdd_Click(object sender, RoutedEventArgs e)
         {
-            if (!Regex.IsMatch(tbsubject.Text, @"^\p{Lu}\p{Ll}{1,12}$") ||
+            if (!Regex.IsMatch(tbsubject.Text, @"[a-zA-Z]+") ||
                 !Regex.IsMatch(tbgrade.Text, @"^[0.0-9]{1,10}$"))
             {
                 MessageBox.Show("Incorrect data!");

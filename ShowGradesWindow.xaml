@@ -10,11 +10,6 @@
         <Label Content="Students Grades:" HorizontalAlignment="Left" Margin="29,26,0,0" VerticalAlignment="Top" Height="39" Width="127" FontSize="16"/>
         <Label x:Name="LabelStudentInfo" Content="" HorizontalAlignment="Left" Margin="221,26,0,0" VerticalAlignment="Top" FontSize="16" Width="278"/>
         <DataGrid x:Name="dgoceny" Margin="0,84,0,0">
-            <!--<DataGrid.Columns>
-            <DataGridTextColumn Header="Przedmiot" Width="3*"/>
-                <DataGridTextColumn Header="Ocena" Width="*"/>
-                <DataGridTextColumn Header="" Width="4*"/>
-        </DataGrid.Columns>-->
         </DataGrid>
         <Button Content="Remove&#xD;&#xA;Grade" HorizontalAlignment="Left" Margin="544,23,0,0" VerticalAlignment="Top" Height="37" Width="49" Click="Button_Click"/>
 

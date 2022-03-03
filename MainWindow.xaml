@@ -8,13 +8,6 @@
         Title="SchoolRegister" Height="450" Width="600">
     <Grid>
         <DataGrid x:Name="dg" Margin="0,78,0,0">
-            <DataGrid.Columns>
-                <!--<DataGridTextColumn Header="Imie" Width="*"/>
-                <DataGridTextColumn Header="Nazwisko" Width="*"/>
-                <DataGridTextColumn Header="NrIndeksu" Width="*"/>
-                <DataGridTextColumn Header="Wydzial" Width="*"/>
-                <DataGridTextColumn Header="" Width="4*"/>-->
-            </DataGrid.Columns>
         </DataGrid>
         <Button x:Name="ButtonAddStudent" Content="AddStudent" HorizontalAlignment="Left" Margin="19,16,0,0" VerticalAlignment="Top" Height="21" Width="79" RenderTransformOrigin="2.624,7.64" Click="ButtonAddStudent_Click"/>
         <Button x:Name="ButtonRemoveStudent" Content="RemoveStudent" HorizontalAlignment="Left" Margin="114,16,0,0" VerticalAlignment="Top" Height="21" Width="97" Click="ButtonRemoveStudent_Click"/>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SchoolRegister"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="600">
+        Title="SchoolRegister" Height="450" Width="600">
     <Grid>
         <DataGrid x:Name="dg" Margin="0,78,0,0">
             <DataGrid.Columns>
